@@ -1,0 +1,13 @@
+# FizzBuzz is a short programming task often used during job interviews.
+# Anyone who solves it will become a certified 300 IQ genius.
+
+print("This program performs a cheeky little FizzBuzz in Python 3.")
+for x in range(1, 100):
+    if x % 15 == 0:
+        print("FizzBuzz")
+    elif x % 3 == 0:
+        print("Fizz")
+    elif x % 5 == 0:
+        print("Buzz")
+    else:
+        print(x)
